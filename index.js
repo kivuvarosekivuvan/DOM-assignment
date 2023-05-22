@@ -11,6 +11,12 @@ document.getElementById(`title`).style.color=`green`
 // Change the font case for h3 title tags to
 // uppercase
 document.getElementById(`food`).style.textTransform = `uppercase`
+document.getElementById(`food2`).style.textTransform = `uppercase`
+document.getElementById(`food`).style.color = `red`
+document.getElementById(`food2`).style.color = `red`
+document.getElementById(`food`).style.fontSize = `30px`
+document.getElementById(`food2`).style.fontSize = `30px`
+
 
 
 // Add one more fruit to the fruits list
@@ -34,3 +40,23 @@ for(let i=0; i<moreVeges.length; i++){
     newVeg.textContent = moreVeges[i]
     previousVeges.appendChild(newVeg)
 }
+
+var image = document.createElement("img");
+image.style.top=`0`
+image.style.position = "absolute";
+image.style.left=`0`
+image.src = "images/pic1.png";
+image.style.float = "left";
+image.style.marginLeft = "40%";
+image.sizes = "20%"
+document.body.appendChild(image);
+
+// var image2 = document.createElement("img");
+// // image2.style.top=`0`
+// image2.style.position = "absolute";
+// // image2.style.left=`0`
+// image2.src = "images/pic2.png";
+// image2.style.float = "left";
+// image2.style.marginLeft = "40%";
+// image2.sizes = "20%"
+// document.body.appendChild(image);
