@@ -7,6 +7,8 @@ document.body.style.fontSize= `18px`
 // green
 
 document.getElementById(`title`).style.color=`green`
+document.getElementById(`title`).style.marginLeft=`20px`
+
 
 // Change the font case for h3 title tags to
 // uppercase
@@ -14,6 +16,9 @@ document.getElementById(`food`).style.textTransform = `uppercase`
 document.getElementById(`food2`).style.textTransform = `uppercase`
 document.getElementById(`food`).style.color = `red`
 document.getElementById(`food2`).style.color = `red`
+document.getElementById(`food`).style.marginLeft = `70px`
+document.getElementById(`food2`).style.marginLeft = `70px`
+
 document.getElementById(`food`).style.fontSize = `30px`
 document.getElementById(`food2`).style.fontSize = `30px`
 
@@ -50,6 +55,9 @@ image.style.float = "left";
 image.style.marginLeft = "40%";
 image.sizes = "20%"
 document.body.appendChild(image);
+
+document.getElementById(`title`).style.marginLeft=`0px`
+
 
 // var image2 = document.createElement("img");
 // // image2.style.top=`0`
